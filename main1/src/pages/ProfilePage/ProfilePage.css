@@ -1,0 +1,17 @@
+.profilepage{
+    display: flex;
+}
+.profilepage .prof{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.profilepage input,
+.profilepage textarea,
+.profilepage button
+{
+    width: 20%;
+   
+}

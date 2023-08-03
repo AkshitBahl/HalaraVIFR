@@ -1,0 +1,273 @@
+[
+  {
+    "ActivityId": "1A",
+    "SessionID":10,
+    "ActivityName": "LER",
+    "RestartCount": 2,
+    "ActivityDateAndTime": "",
+    "SubActivity": [
+      {
+        "WaterWater": {
+          "count": 1,
+          "ActualDuration": 4
+        }
+      },
+      {
+        "Waterfall": {
+          "count": 6,
+          "ActualDuration": 9
+        }
+      },
+      {
+        "AmongTheClouds": {
+          "count": 2,
+          "ActualDuration": 4
+        }
+      }
+    ],
+    "ActualTimeTaken": 20
+  },
+  {
+    "ActivityId": "2A",
+    "SessionID":10,
+    "ActivityName": "ADL",
+    "ActivityDateAndTime": "",
+    "RestartCount": 4,
+    "SubActivity": [
+      {
+        "Brushing": {
+          "count": 2,
+          "ActualDuration": 5
+        }
+      },
+      {
+        "Toilet_training": {
+          "count": 4,
+          "ActualDuration": 4
+        }
+      },
+      {
+        "Bathing": {
+          "count": 6,
+          "ActualDuration": 6
+        }
+      },
+      {
+        "Clothing": {
+          "count": 3,
+          "ActualDuration": 3
+        }
+      },
+      {
+        "Gromming": {
+          "count": 0,
+          "ActualDuration": 4
+        }
+      },
+      {
+        "Breakfast": {
+          "count": 7,
+          "ActualDuration": 3
+        }
+      }
+    ],
+    "ActualTimeTaken": 100
+  },
+  {
+    "ActivityId": "2B",
+    "SessionID":20,
+    "ActivityName": "ADL",
+    "ActivityDateAndTime": "",
+    "RestartCount": 4,
+    "SubActivity": [
+      {
+        "Brushing": {
+          "count": 4,
+          "ActualDuration": 5
+        }
+      },
+      {
+        "Toilet_training": {
+          "count": 6,
+          "ActualDuration": 4
+        }
+      },
+      {
+        "Bathing": {
+          "count": 7,
+          "ActualDuration": 6
+        }
+      },
+      {
+        "Clothing": {
+          "count": 8,
+          "ActualDuration": 3
+        }
+      },
+      {
+        "Gromming": {
+          "count": 1,
+          "ActualDuration": 4
+        }
+      },
+      {
+        "Breakfast": {
+          "count": 2,
+          "ActualDuration": 3
+        }
+      }
+    ],
+    "ActualTimeTaken": 100
+  },
+  {
+    "ActivityId": "2C",
+    "SessionID":30,
+    "ActivityName": "ADL",
+    "ActivityDateAndTime": "",
+    "RestartCount": 4,
+    "SubActivity": [
+      {
+        "Brushing": {
+          "count": 2,
+          "ActualDuration": 5
+        }
+      },
+      {
+        "Toilet_training": {
+          "count": 3,
+          "ActualDuration": 4
+        }
+      },
+      {
+        "Bathing": {
+          "count": 1,
+          "ActualDuration": 6
+        }
+      },
+      {
+        "Clothing": {
+          "count": 0,
+          "ActualDuration": 3
+        }
+      },
+      {
+        "Gromming": {
+          "count": 2,
+          "ActualDuration": 4
+        }
+      },
+      {
+        "Breakfast": {
+          "count": 4,
+          "ActualDuration": 3
+        }
+      }
+    ],
+    "ActualTimeTaken": 100
+  },
+  {
+    "ActivityId": "3A",
+    "SessionID":10,
+    "ActivityName": "Tutorial",
+    "IdealActivityDuration": 30,
+    "ActivityDateAndTime": "",
+    "RestartCount": 3,
+    "SubActivity": [
+      {
+        "ObjectRecognition": {
+          "TotalTrueCounts":6,
+          "TotalFalseCounts":7,
+          "ActualDuration": 4
+        }
+      },
+      {
+        "GestureImitation": {
+          "TotalTrueCounts":3,
+          "TotalFalseCounts":13,
+          "ActualDuration": 6
+        }
+      }
+    ],
+    "ActualTimeTaken": 90
+  },
+  {
+    "ActivityId": "4A",
+    "SessionID":10,
+    "ActivityName": "TeachingSkills",
+    "IdealActivityDuration": 20,
+    "ActivityDateAndTime": "",
+    "RestartCount": 2,
+    "SubActivity": [
+      {
+        "Vocational": {
+          "answer": "true",
+          "count": 1,
+          "ActualDuration": 4
+        }
+      },
+      {
+        "AttentionSkill": {
+          "answer": "true",
+          "count": 2,
+          "ActualDuration": 15
+        }
+      },
+      {
+        "SocialSkill": {
+          "answer": "true",
+          "count": 1,
+          "ActualDuration": 17
+        }
+      },
+      {
+        "Lessons": {
+          "answer": "true",
+          "count": 3,
+          "ActualDuration": 8
+        }
+      }
+    ],
+    "ActualTimeTaken": 45
+  },
+  {
+    "ActivityId": "5A",
+    "SessionID":10,
+    "ActivityName": "HER",
+    "IdealActivityDuration": 20,
+    "ActivityDateAndTime": "",
+    "RestartCount": 1,
+    "SubActivity": [
+      {
+        "NishokGame": {
+          "count": 2,
+          "ActualDuration": 14
+        }
+      },
+      {
+        "PlayMarimba": {
+          "count": 0,
+          "ActualDuration": 0
+        }
+      },
+      {
+        "ScribbleOnSomething": {
+          "count": 1,
+          "ActualDuration": 9
+        }
+      },
+      {
+        "3DColourbook": {
+          "count": 0,
+          "ActualDuration": 0
+        }
+      },
+      {
+        "MusicDance": {
+          "count": 2,
+          "ActualDuration": 8
+        }
+      }
+    ],
+    "ActualTimeTaken": 20
+  }
+]

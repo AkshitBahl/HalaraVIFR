@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    padding: 0;
+     margin: 0;
+     font-family: "Fredoka", sans-serif;
+}
+
+.link {
+    @apply p-2.5 flex rounded-md gap-6 items-center md:cursor-pointer cursor-default duration-300 font-medium;
+  }
+  
+  
+  .active{
+    background: url("./assets/images/Hilight.png");
+    background-repeat: no-repeat;
+  }
+
+.montserrat{
+   font-family: 'Montserrat', sans-serif;
+}
+ .montserrat::placeholder{
+  font-family: 'Montserrat', sans-serif;
+ }

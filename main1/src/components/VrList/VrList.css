@@ -1,0 +1,13 @@
+.vrlist{
+    display: flex;
+    gap: 10px;
+}
+.vrlist .vr-add{
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
